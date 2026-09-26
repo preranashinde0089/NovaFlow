@@ -1,0 +1,1073 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NovaFlow - Build Better, Launch Faster. The modern intelligent workflow platform for digital teams.">
+  <title>NovaFlow — Build Better. Launch Faster.</title>
+  
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. NAVBAR
+       ========================================================================= -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <!-- Logo -->
+      <a href="#hero" class="nav-brand" aria-label="NovaFlow Home">
+        <span class="brand-logo-icon">
+          <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="url(#brandGrad)" />
+            <path d="M10 22L16 10L22 22M12.5 17H19.5" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+            <defs>
+              <linearGradient id="brandGrad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6366F1" />
+                <stop offset="1" stop-color="#06B6D4" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="brand-name">Nova<strong>Flow</strong></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#how-it-works" class="nav-link">How it Works</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Mobile Actions (visible only on mobile drawer) -->
+        <div class="nav-mobile-actions">
+          <a href="#pricing" class="btn btn-primary btn-block">Get Started</a>
+        </div>
+      </nav>
+
+      <!-- Nav End Actions -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Dark or Light theme" title="Toggle theme">
+          <span class="theme-icon sun-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+          <span class="theme-icon moon-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </span>
+        </button>
+
+        <a href="#pricing" class="btn btn-primary nav-cta-btn">Get Started</a>
+
+        <!-- Hamburger Button -->
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         2. HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="hero">
+      <!-- Ambient background glow elements -->
+      <div class="ambient-glow glow-1" aria-hidden="true"></div>
+      <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+      <div class="container hero-container">
+        <!-- Hero Text Content -->
+        <div class="hero-content reveal">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>Powering smarter digital teams</span>
+            <span class="badge-arrow">→</span>
+          </div>
+
+          <h1 class="hero-title">
+            Build Better. <br>
+            <span class="gradient-text">Launch Faster.</span>
+          </h1>
+
+          <p class="hero-description">
+            NovaFlow empowers modern product teams to automate complex development pipelines, track live performance metrics, and synchronize work in one unified intelligent workspace.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#pricing" class="btn btn-primary btn-lg">
+              Get Started Free
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#features" class="btn btn-secondary btn-lg">
+              Explore Features
+            </a>
+          </div>
+
+          <!-- Micro trust metric -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <strong>99.98%</strong>
+              <span>Uptime SLA</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <strong>10k+</strong>
+              <span>Active Teams</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <strong>4.9 / 5</strong>
+              <span>User Rating</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modern Dashboard / Product Mockup -->
+        <div class="hero-mockup-wrapper reveal">
+          <div class="mockup-frame">
+            <!-- Window Title Bar -->
+            <div class="mockup-header">
+              <div class="mockup-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="mockup-search">
+                <svg viewBox="0 0 20 20" fill="currentColor" class="search-icon">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                </svg>
+                <span>app.novaflow.io/dashboard</span>
+              </div>
+              <div class="mockup-status-pill">Live</div>
+            </div>
+
+            <!-- Dashboard Body -->
+            <div class="mockup-body">
+              <!-- Mini Sidebar -->
+              <div class="mockup-sidebar">
+                <div class="sidebar-icon active">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                </div>
+                <div class="sidebar-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                </div>
+                <div class="sidebar-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                </div>
+                <div class="sidebar-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+                </div>
+              </div>
+
+              <!-- Main Workspace -->
+              <div class="mockup-content">
+                <!-- Top Row Metrics -->
+                <div class="dash-stat-row">
+                  <div class="dash-stat-card">
+                    <span class="stat-lbl">Workflow Velocity</span>
+                    <div class="stat-val">+34.8% <span class="stat-badge-up">↑ 12%</span></div>
+                  </div>
+                  <div class="dash-stat-card">
+                    <span class="stat-lbl">Active Pipelines</span>
+                    <div class="stat-val">1,420 <span class="stat-badge-neutral">Stable</span></div>
+                  </div>
+                  <div class="dash-stat-card">
+                    <span class="stat-lbl">Avg. Deploy Time</span>
+                    <div class="stat-val">3.2m <span class="stat-badge-up">↓ 42s</span></div>
+                  </div>
+                </div>
+
+                <!-- Chart Preview -->
+                <div class="dash-chart-card">
+                  <div class="chart-header">
+                    <span class="chart-title">Throughput & Execution Volume</span>
+                    <div class="chart-legend">
+                      <span class="legend-dot primary"></span> Pipelines
+                      <span class="legend-dot accent"></span> Automations
+                    </div>
+                  </div>
+                  <div class="chart-bars-wrap">
+                    <div class="chart-col"><div class="bar-fill" style="height: 45%;"></div><span>Mon</span></div>
+                    <div class="chart-col"><div class="bar-fill" style="height: 65%;"></div><span>Tue</span></div>
+                    <div class="chart-col"><div class="bar-fill" style="height: 80%;"></div><span>Wed</span></div>
+                    <div class="chart-col"><div class="bar-fill active" style="height: 95%;"></div><span>Thu</span></div>
+                    <div class="chart-col"><div class="bar-fill" style="height: 70%;"></div><span>Fri</span></div>
+                    <div class="chart-col"><div class="bar-fill" style="height: 50%;"></div><span>Sat</span></div>
+                    <div class="chart-col"><div class="bar-fill" style="height: 85%;"></div><span>Sun</span></div>
+                  </div>
+                </div>
+
+                <!-- Recent Pipelines List -->
+                <div class="dash-activity-card">
+                  <div class="activity-row">
+                    <span class="act-status green"></span>
+                    <span class="act-name">production-deploy-api-v3</span>
+                    <span class="act-time">1m ago</span>
+                    <span class="act-pill success">Success</span>
+                  </div>
+                  <div class="activity-row">
+                    <span class="act-status purple"></span>
+                    <span class="act-name">sync-stripe-webhooks-stream</span>
+                    <span class="act-time">4m ago</span>
+                    <span class="act-pill running">Running</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Floating Decorative Cards -->
+          <div class="floating-badge badge-top-right">
+            <div class="badge-icon-wrap">⚡</div>
+            <div>
+              <strong>Instant Sync</strong>
+              <span>Latency &lt; 15ms</span>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom-left">
+            <div class="badge-icon-wrap">🛡️</div>
+            <div>
+              <strong>SOC2 Certified</strong>
+              <span>End-to-end security</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. TRUSTED BY SECTION
+         ========================================================================= -->
+    <section class="trusted-section">
+      <div class="container">
+        <p class="trusted-title">Trusted by modern teams at fast-growing companies worldwide</p>
+        <div class="trusted-logos">
+          <!-- Logo 1: Acme -->
+          <div class="logo-item" title="Acme Global">
+            <svg class="company-logo" viewBox="0 0 120 32" fill="currentColor">
+              <path d="M12 4L4 28H10L12 21H18L20 28H26L18 4H12ZM15 11L17 17H13L15 11Z" />
+              <text x="32" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="16" letter-spacing="1">ACME</text>
+            </svg>
+          </div>
+          <!-- Logo 2: Vertex -->
+          <div class="logo-item" title="Vertex Systems">
+            <svg class="company-logo" viewBox="0 0 130 32" fill="currentColor">
+              <circle cx="16" cy="16" r="10" stroke="currentColor" stroke-width="3" fill="none" />
+              <path d="M12 16L15 19L20 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" />
+              <text x="34" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="16" letter-spacing="1">VERTEX</text>
+            </svg>
+          </div>
+          <!-- Logo 3: PulseWave -->
+          <div class="logo-item" title="PulseWave">
+            <svg class="company-logo" viewBox="0 0 145 32" fill="currentColor">
+              <path d="M6 16H11L14 8L18 24L21 16H26" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+              <text x="34" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="15" letter-spacing="0.5">PULSEWAVE</text>
+            </svg>
+          </div>
+          <!-- Logo 4: Lumina -->
+          <div class="logo-item" title="Lumina Tech">
+            <svg class="company-logo" viewBox="0 0 130 32" fill="currentColor">
+              <polygon points="16,5 24,19 8,19" stroke="currentColor" stroke-width="2.5" fill="none" />
+              <circle cx="16" cy="14" r="2" fill="currentColor" />
+              <text x="32" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="16" letter-spacing="1">LUMINA</text>
+            </svg>
+          </div>
+          <!-- Logo 5: CloudScale -->
+          <div class="logo-item" title="CloudScale">
+            <svg class="company-logo" viewBox="0 0 150 32" fill="currentColor">
+              <path d="M8 20A6 6 0 0 1 14 14A8 8 0 0 1 24 16A5 5 0 0 1 24 24H8A4 4 0 0 1 8 20Z" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linejoin="round" />
+              <text x="34" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="15" letter-spacing="0.5">CLOUDSCALE</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. FEATURES SECTION
+         ========================================================================= -->
+    <section class="features-section section-padding" id="features">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Powerful Capabilities</span>
+          <h2 class="section-title">Everything you need to ship faster</h2>
+          <p class="section-subtitle">
+            Eliminate repetitive tasks, optimize engineering cycles, and keep every team member aligned with our purpose-built toolset.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <!-- Feature 1: Smart Automation -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box icon-purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">Smart Automation</h3>
+            <p class="feature-card-desc">
+              Trigger multi-step pipelines automatically on commits, deployments, or external webhook events without writing custom glue code.
+            </p>
+            <div class="feature-card-link">
+              <span>Learn more</span>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+            </div>
+          </div>
+
+          <!-- Feature 2: Real-Time Analytics -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box icon-cyan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">Real-Time Analytics</h3>
+            <p class="feature-card-desc">
+              Monitor latency, success rates, throughput spikes, and team velocity in live customizable dashboards with sub-second accuracy.
+            </p>
+            <div class="feature-card-link">
+              <span>Learn more</span>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+            </div>
+          </div>
+
+          <!-- Feature 3: Team Collaboration -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box icon-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">Team Collaboration</h3>
+            <p class="feature-card-desc">
+              Shared team workspaces, role-based granular permissions, inline feedback threads, and instant Slack notifications ensure zero silos.
+            </p>
+            <div class="feature-card-link">
+              <span>Learn more</span>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+            </div>
+          </div>
+
+          <!-- Feature 4: Secure Cloud -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box icon-emerald">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">Secure Cloud</h3>
+            <p class="feature-card-desc">
+              Enterprise-grade AES-256 encryption at rest, TLS 1.3 in transit, automated daily backups, and strict SOC2 Type II compliance.
+            </p>
+            <div class="feature-card-link">
+              <span>Learn more</span>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+            </div>
+          </div>
+
+          <!-- Feature 5: AI-Powered Insights -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box icon-rose">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">AI-Powered Insights</h3>
+            <p class="feature-card-desc">
+              Uncover workflow friction, detect anomalies before they cause downtime, and get automatic pipeline optimization suggestions.
+            </p>
+            <div class="feature-card-link">
+              <span>Learn more</span>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+            </div>
+          </div>
+
+          <!-- Feature 6: Easy Integration -->
+          <div class="feature-card reveal">
+            <div class="feature-icon-box icon-amber">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="18" r="3"></circle>
+                <circle cx="6" cy="6" r="3"></circle>
+                <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                <line x1="6" y1="9" x2="6" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="feature-card-title">Easy Integration</h3>
+            <p class="feature-card-desc">
+              Connect directly with GitHub, GitLab, Jira, Slack, Figma, AWS, and 50+ developer tools via native one-click integrations.
+            </p>
+            <div class="feature-card-link">
+              <span>Learn more</span>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" /></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         5. HOW IT WORKS / PRODUCT SECTION
+         ========================================================================= -->
+    <section class="how-section section-padding" id="how-it-works">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Simple &amp; Intuitive</span>
+          <h2 class="section-title">How NovaFlow works in 3 easy steps</h2>
+          <p class="section-subtitle">
+            Get your entire team set up and running in under five minutes. No complicated configuration required.
+          </p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-card reveal">
+            <div class="step-number">01</div>
+            <div class="step-illustration">
+              <div class="step-badge-node">GitHub</div>
+              <div class="step-node-connector">⟶</div>
+              <div class="step-badge-node main">NovaFlow</div>
+            </div>
+            <h3 class="step-title">Connect your tools</h3>
+            <p class="step-desc">
+              Authenticate your existing repositories, issue trackers, and cloud providers with secure, instant 1-click OAuth connections.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card reveal">
+            <div class="step-number">02</div>
+            <div class="step-illustration">
+              <div class="step-flow-box">
+                <span class="step-trigger">On PR Merge</span>
+                <span class="step-arrow">↓</span>
+                <span class="step-action">Run Test &amp; Deploy</span>
+              </div>
+            </div>
+            <h3 class="step-title">Automate your workflow</h3>
+            <p class="step-desc">
+              Build resilient trigger-and-action rules with our drag-and-drop canvas or code-first declarative configuration files.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card reveal">
+            <div class="step-number">03</div>
+            <div class="step-illustration">
+              <div class="step-stats-preview">
+                <div class="preview-metric"><span>Efficiency</span><strong>+48%</strong></div>
+                <div class="preview-bar"><div class="preview-fill"></div></div>
+              </div>
+            </div>
+            <h3 class="step-title">Track your results</h3>
+            <p class="step-desc">
+              Watch your pipeline executions in real time, catch regressions early, and export executive summary metrics with one click.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         6. PRICING SECTION
+         ========================================================================= -->
+    <section class="pricing-section section-padding" id="pricing">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Transparent Pricing</span>
+          <h2 class="section-title">Simple plans that scale with your team</h2>
+          <p class="section-subtitle">
+            No surprise fees. Start free and upgrade whenever your team is ready.
+          </p>
+
+          <!-- Pricing Billing Switch -->
+          <div class="billing-switch-wrapper">
+            <span class="billing-label" id="monthlyLabel">Monthly</span>
+            <button class="billing-toggle-btn" id="billingToggle" role="switch" aria-checked="false" aria-label="Toggle annual billing discount">
+              <span class="toggle-slider"></span>
+            </button>
+            <span class="billing-label" id="annualLabel">
+              Annually <span class="discount-pill">Save 20%</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Starter Plan -->
+          <div class="pricing-card reveal">
+            <div class="pricing-card-header">
+              <h3 class="plan-name">Starter</h3>
+              <p class="plan-desc">Perfect for solo developers and quick side projects.</p>
+              <div class="plan-price-wrap">
+                <span class="plan-currency">$</span>
+                <span class="plan-price" data-monthly="0" data-annual="0">0</span>
+                <span class="plan-period">/ month</span>
+              </div>
+            </div>
+
+            <ul class="plan-features">
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Up to 3 team members
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                1,000 monthly automation runs
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                5 active pipelines
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Community Discord support
+              </li>
+              <li class="feature-disabled">
+                <svg class="cross-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                Custom webhooks &amp; API keys
+              </li>
+            </ul>
+
+            <div class="plan-cta">
+              <a href="#contact" class="btn btn-secondary btn-block">Get Started Free</a>
+            </div>
+          </div>
+
+          <!-- Professional Plan (Featured) -->
+          <div class="pricing-card featured reveal">
+            <div class="popular-ribbon">Most Popular</div>
+            <div class="pricing-card-header">
+              <h3 class="plan-name">Professional</h3>
+              <p class="plan-desc">For fast-moving startups and growing engineering teams.</p>
+              <div class="plan-price-wrap">
+                <span class="plan-currency">$</span>
+                <span class="plan-price" data-monthly="19" data-annual="15">19</span>
+                <span class="plan-period">/ month</span>
+              </div>
+            </div>
+
+            <ul class="plan-features">
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Up to 15 team members
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                25,000 monthly automation runs
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Unlimited active pipelines
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Priority email &amp; chat support
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Custom webhooks &amp; REST API access
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                90-day activity log history
+              </li>
+            </ul>
+
+            <div class="plan-cta">
+              <a href="#contact" class="btn btn-primary btn-block">Start 14-Day Free Trial</a>
+            </div>
+          </div>
+
+          <!-- Business Plan -->
+          <div class="pricing-card reveal">
+            <div class="pricing-card-header">
+              <h3 class="plan-name">Business</h3>
+              <p class="plan-desc">For scaling organizations needing enterprise security and scale.</p>
+              <div class="plan-price-wrap">
+                <span class="plan-currency">$</span>
+                <span class="plan-price" data-monthly="49" data-annual="39">49</span>
+                <span class="plan-period">/ month</span>
+              </div>
+            </div>
+
+            <ul class="plan-features">
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Unlimited team members
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                200,000+ monthly automation runs
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Dedicated Customer Success Manager
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                99.99% Guaranteed SLA uptime
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                SAML SSO &amp; Custom Role Provisioning
+              </li>
+              <li>
+                <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>
+                Unlimited audit log retention
+              </li>
+            </ul>
+
+            <div class="plan-cta">
+              <a href="#contact" class="btn btn-secondary btn-block">Contact Sales</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         7. TESTIMONIALS SECTION
+         ========================================================================= -->
+    <section class="testimonials-section section-padding" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Social Proof</span>
+          <h2 class="section-title">Loved by engineers and product leaders</h2>
+          <p class="section-subtitle">
+            Here is what high-growth engineering teams say about switching to NovaFlow.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card reveal">
+            <div class="star-rating" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p class="testimonial-quote">
+              “NovaFlow reduced our release deployment friction completely. What used to take half a day across multiple dev teams now executes reliably in under 12 minutes.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar avatar-1">
+                AR
+              </div>
+              <div class="author-info">
+                <span class="author-name">Alex Rivera</span>
+                <span class="author-role">Head of Engineering @ CloudScale</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card reveal">
+            <div class="star-rating" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p class="testimonial-quote">
+              “The live analytics dashboard and instant Slack alert routing have made our standups 10x more actionable. I cannot imagine shipping without NovaFlow now.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar avatar-2">
+                SC
+              </div>
+              <div class="author-info">
+                <span class="author-name">Sophia Chen</span>
+                <span class="author-role">Product Lead @ Nexus Studio</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card reveal">
+            <div class="star-rating" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <p class="testimonial-quote">
+              “Getting started took literally 5 minutes. The SOC2 compliance and native GitHub webhook integration made enterprise security approval a breeze.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar avatar-3">
+                MV
+              </div>
+              <div class="author-info">
+                <span class="author-name">Marcus Vance</span>
+                <span class="author-role">Founder &amp; CTO @ FinFlow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         8. FAQ SECTION
+         ========================================================================= -->
+    <section class="faq-section section-padding" id="faq">
+      <div class="container faq-container">
+        <div class="section-header text-center reveal">
+          <span class="section-tag">Got Questions?</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Find answers to commonly asked questions about trials, billing, integrations, and data privacy.
+          </p>
+        </div>
+
+        <div class="faq-accordion" id="faqAccordion">
+          <!-- FAQ Item 1 -->
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-1" id="faq-btn-1">
+              <span>How does the 14-day free trial work?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1">
+              <div class="faq-answer-inner">
+                You get full, unrestricted access to the Professional plan for 14 days without entering any credit card information. If you choose not to upgrade, your account automatically transitions to our forever-free Starter plan without losing your pipelines.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 2 -->
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-2" id="faq-btn-2">
+              <span>Can I switch or cancel my plan at any time?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2">
+              <div class="faq-answer-inner">
+                Yes! You can upgrade, downgrade, or cancel your subscription at any moment directly from your account settings. Upgrades take effect immediately with prorated billing, while cancellations remain active until the end of your billing cycle.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 3 -->
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-3" id="faq-btn-3">
+              <span>How does NovaFlow ensure our company data remains secure?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3">
+              <div class="faq-answer-inner">
+                We take security seriously. All customer data is encrypted using AES-256 at rest and TLS 1.3 in transit. We maintain rigorous SOC2 Type II certification, GDPR adherence, role-based access control (RBAC), and automated threat detection scans.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 4 -->
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-4" id="faq-btn-4">
+              <span>What integrations do you support out of the box?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4">
+              <div class="faq-answer-inner">
+                NovaFlow connects directly with GitHub, GitLab, Bitbucket, Jira, Slack, Discord, Linear, AWS, Google Cloud, Docker, Vercel, and custom webhook endpoints. If you use a custom internal tool, our REST API allows seamless custom adapters.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 5 -->
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-5" id="faq-btn-5">
+              <span>Can I invite external contractors and clients?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5">
+              <div class="faq-answer-inner">
+                Absolutely. You can assign specific granular permissions such as Read-Only, Pipeline Operator, or Admin. This allows you to give contractors or stakeholders visibility into release progress without granting access to sensitive secrets.
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Item 6 -->
+          <div class="faq-item reveal">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-ans-6" id="faq-btn-6">
+              <span>What happens if our usage exceeds the monthly plan limits?</span>
+              <span class="faq-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </span>
+            </button>
+            <div class="faq-answer" id="faq-ans-6" role="region" aria-labelledby="faq-btn-6">
+              <div class="faq-answer-inner">
+                We never abruptly cut off your pipelines. When your workspace reaches 80% and 95% of your quota, we notify team administrators with options to either add execution bundles or seamlessly upgrade without downtime.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         9. CONTACT & CTA SECTION
+         ========================================================================= -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <!-- Visual High-Impact CTA Banner -->
+        <div class="cta-banner reveal">
+          <div class="cta-banner-content">
+            <h2 class="cta-banner-title">Ready to simplify your workflow?</h2>
+            <p class="cta-banner-subtitle">
+              Join over 10,000+ teams shipping high-impact products faster and with greater confidence.
+            </p>
+            <div class="cta-banner-actions">
+              <a href="#pricing" class="btn btn-white btn-lg">Start Free Trial</a>
+              <a href="#features" class="btn btn-outline-white btn-lg">Schedule Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Box -->
+        <div class="contact-box-wrapper reveal">
+          <div class="contact-header text-center">
+            <span class="section-tag">Get In Touch</span>
+            <h3 class="contact-title">Have questions or custom needs?</h3>
+            <p class="contact-subtitle">
+              Our team typically responds within 2 hours during normal business days.
+            </p>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <!-- Name Field -->
+              <div class="form-group">
+                <label for="userName">Full Name <span class="required-star">*</span></label>
+                <input 
+                  type="text" 
+                  id="userName" 
+                  name="name" 
+                  placeholder="e.g. Sarah Jenkins" 
+                  autocomplete="name"
+                  required
+                >
+                <span class="error-msg" id="nameError">Please enter your full name.</span>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="userEmail">Work Email <span class="required-star">*</span></label>
+                <input 
+                  type="email" 
+                  id="userEmail" 
+                  name="email" 
+                  placeholder="sarah@company.com" 
+                  autocomplete="email"
+                  required
+                >
+                <span class="error-msg" id="emailError">Please enter a valid work email address.</span>
+              </div>
+            </div>
+
+            <!-- Message Field -->
+            <div class="form-group">
+              <label for="userMessage">Message <span class="required-star">*</span></label>
+              <textarea 
+                id="userMessage" 
+                name="message" 
+                rows="4" 
+                placeholder="Tell us about your team size, current stack, or specific questions..."
+                required
+              ></textarea>
+              <span class="error-msg" id="messageError">Please provide a message with at least 10 characters.</span>
+            </div>
+
+            <div class="form-submit-row">
+              <button type="submit" class="btn btn-primary btn-lg" id="submitBtn">
+                <span class="btn-text">Send Message</span>
+                <span class="btn-spinner" aria-hidden="true"></span>
+              </button>
+            </div>
+          </form>
+
+          <!-- Toast / Notification container -->
+          <div class="toast-message" id="toastMessage" role="alert" aria-live="assertive">
+            <span class="toast-icon">✓</span>
+            <span class="toast-text" id="toastText">Thank you! Your message has been received.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       10. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <!-- Footer Brand Column -->
+      <div class="footer-brand-col">
+        <a href="#hero" class="nav-brand" aria-label="NovaFlow Home">
+          <span class="brand-logo-icon">
+            <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="8" fill="url(#brandGradFooter)" />
+              <path d="M10 22L16 10L22 22M12.5 17H19.5" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+              <defs>
+                <linearGradient id="brandGradFooter" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#6366F1" />
+                  <stop offset="1" stop-color="#06B6D4" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="brand-name">Nova<strong>Flow</strong></span>
+        </a>
+        <p class="footer-tagline">
+          The all-in-one automation and workflow intelligence engine designed for modern, high-velocity engineering and product teams.
+        </p>
+        <div class="system-status">
+          <span class="status-indicator"></span>
+          <span>All systems operational</span>
+        </div>
+      </div>
+
+      <!-- Links Column 1: Product -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Product</h4>
+        <ul class="footer-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#hero">Release Notes</a></li>
+          <li><a href="#hero">Integrations</a></li>
+        </ul>
+      </div>
+
+      <!-- Links Column 2: Company -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Company</h4>
+        <ul class="footer-links">
+          <li><a href="#hero">About Us</a></li>
+          <li><a href="#hero">Careers <span class="hiring-tag">We're hiring</span></a></li>
+          <li><a href="#hero">Blog &amp; Insights</a></li>
+          <li><a href="#hero">Press Kit</a></li>
+          <li><a href="#contact">Contact Support</a></li>
+        </ul>
+      </div>
+
+      <!-- Links Column 3: Resources -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Resources</h4>
+        <ul class="footer-links">
+          <li><a href="#faq">Documentation</a></li>
+          <li><a href="#faq">API Reference</a></li>
+          <li><a href="#faq">Community Forum</a></li>
+          <li><a href="#faq">Security Whitepaper</a></li>
+          <li><a href="#faq">Status Page</a></li>
+        </ul>
+      </div>
+
+      <!-- Links Column 4: Legal & Social -->
+      <div class="footer-col">
+        <h4 class="footer-col-title">Connect</h4>
+        <div class="social-links">
+          <!-- GitHub -->
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="NovaFlow on GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <!-- Twitter / X -->
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="NovaFlow on X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="NovaFlow on LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <!-- Discord -->
+          <a href="https://discord.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="NovaFlow on Discord">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.929 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.893.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+          </a>
+        </div>
+        <p class="footer-legal-note">
+          Security First • SOC2 Type II Certified • GDPR Compliant
+        </p>
+      </div>
+    </div>
+
+    <!-- Bottom Copyright Bar -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> NovaFlow Technologies, Inc. All rights reserved.
+        </p>
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <span class="sep">•</span>
+          <a href="#">Terms of Service</a>
+          <span class="sep">•</span>
+          <a href="#">Security</a>
+          <span class="sep">•</span>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vanilla JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
